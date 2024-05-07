@@ -1,0 +1,66 @@
+* {
+	margin: 0 px;
+	padding: 0 px;
+}
+
+body {
+	background-color: #8B0000; 
+	color: white;
+    font-family: verdana;
+	
+}
+
+nav {
+	border-radius: 10px;
+	display: flex;
+	justify-content: space-around;	
+	align-items: center;
+}
+
+ul li {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	background-color: #FF4500;
+	color: white;
+	border-radius: 0px;
+	padding: 5px;
+}
+
+img {
+	height: 250px;
+	width: 250px;
+	border-radius: 25%;
+	border: solid 5px blood orange;
+	display: flax;
+	
+}
+
+.img-1 {	
+	  display: flex;
+      justify-content: space-around;
+}
+
+
+
+
+main {
+	margin: 60px;
+}
+
+table, th, td {
+	border: 2px solid;
+	border-color: Tomato;
+	border-radius: 35px;
+	padding: 10px;
+	width: 200px;
+	height: 50px;
+	text-align: center;
+	align: center;
+}
