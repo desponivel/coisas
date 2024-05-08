@@ -1,2 +1,2 @@
 # coisas
-so sei que nada sei 
+sei que nada sei por saber que nada sei 
