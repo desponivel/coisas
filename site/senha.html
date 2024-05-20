@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Loja de Produtos de Games</title>
+    <link rel="stylesheet" href="senha.css">
+</head>
+
+<body class="pagina">
+    <header>
+        <h1>Pagamento do jogo</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="senha">
+        <h2>Insira os dados do cartão</h2>
+        <form onsubmit="return false;">
+            <label for="numero_cartao">Número do cartão:</label><br>
+            <input type="text" id="numero_cartao" name="numero_cartao" required><br>
+
+            <label for="senha_cartao">Senha:</label><br>
+            <input type="password" id="senha_cartao" name="senha_cartao" required><br><br>
+
+            <input type="submit" value="Pagar" onclick="mostrarMensagem()">
+        </form>
+        <p id="mensagem" style="display: none; color: red;">Você acabou de passar seus dados para um desconhecido então faz o L, enquanto eu compro meu novo PC gamer.</p>
+    </section>
+
+    <footer id="contato">
+        <h2>Entre em Contato</h2>
+        <p>Telefone: (11) 98901-7556</p>
+        <p>Email: luizgabryel515@gmail.com</p>
+    </footer>
+
+    <script>
+        function mostrarMensagem() {
+            document.getElementById("mensagem").style.display = "block";
+        }
+    </script>
+	<section id="senha">
+    <h2>Insira os dados do cartão</h2>
+    <form>
+        <label for="numero_cartao">Número do cartão:</label><br>
+        <input type="text" id="numero_cartao" name="numero_cartao" required><br>
+
+        <label for="senha_cartao">Senha:</label><br>
+        <input type="password" id="senha_cartao" name="senha_cartao" required><br><br>
+
+        <input type="submit" value="Pagar">
+    </form>
+    <input type="checkbox" id="aviso-checkbox">
+    <div id="aviso-vazamento">
+        <label for="aviso-checkbox">Seus dados foram vazados! Por favor, entre em contato conosco imediatamente.</label>
+    </div>
+</section>
+
+</body>
+</html>
