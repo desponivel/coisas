@@ -1,0 +1,132 @@
+/* Estilo geral */
+body.pagina {
+    background-color: #242020; /* Fundo cinza escuro */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Fonte padrão */
+}
+
+/* Cabeçalho */
+header {
+    background-color: #333; /* Fundo preto */
+    color: #fff; /* Texto branco */
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Sombra suave */
+}
+
+header nav ul {
+    list-style-type: none; /*  marcadores de lista */
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline; /* Itens da lista em linha */
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff; /* Texto branco */
+    text-decoration: none; /* Remove sublinhado */
+    transition: color 0.3s ease; /* Transição suave */
+}
+
+header nav ul li a:hover {
+    color: #ccc; /* Texto cinza claro no hover */
+}
+
+/* Seção de senha */
+section#senha {
+    padding: 20px;
+    border-bottom: 1px solid #ddd; /*  borda inferior */
+}
+
+section#senha h2 {
+    margin-bottom: 20px;
+    color: #ccc; /* Texto cinza claro */
+}
+
+section#senha form label {
+    display: block;
+    margin-bottom: 10px;
+    color: #fff; /* Texto branco */
+}
+
+section#senha form input[type="text"],
+section#senha form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc; /* Borda cinza claro */
+    border-radius: 5px; /* Bordas arredondadas */
+    box-sizing: border-box; /*  border no tamanho total */
+    background-color: #333; /* Fundo preto */
+    color: #fff; /* Texto branco */
+}
+
+section#senha form input[type="submit"] {
+    background-color: #555; /* Fundo cinza escuro */
+    color: #fff; /* Texto branco */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transição  */
+}
+
+section#senha form input[type="submit"]:hover {
+    background-color: #777; /* Fundo cinza mais escuro  */
+}
+
+/* Rodapé */
+footer#contato {
+    background-color: #333; /* Fundo preto */
+    color: #fff; /* Texto branco */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 -2px 4px rgba(0,0,0,0.1); /* Sombra suave */
+}
+
+footer#contato p {
+    margin-bottom: 10px;
+}
+
+/* Aviso de vazamento */
+#aviso-vazamento {
+    background-color: #ff6666; /* Vermelho mais suave */
+    color: #fff; /* Texto branco */
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+    display: none; /* Oculto por padrão */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Sombra suave */
+}
+
+#aviso-checkbox:checked + #aviso-vazamento {
+    display: block; /* Exibido quando o cheqbox está marcado */
+}
+
+#aviso-vazamento label {
+    cursor: pointer;
+}
+
+/* Botão "Central de Ajuda" */
+#central-ajuda-btn {
+    background-color: #555; /* Cor preta mais escura */
+    border: none;
+    color: #fff; /* Texto branco */
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+#central-ajuda-btn:hover {
+    background-color: #333; /* Cor preta mais clara */
+}
