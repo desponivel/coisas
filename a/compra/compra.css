@@ -1,0 +1,63 @@
+/* Estilo para a página de compra */
+
+body {
+    background-color: #1C1C1C; /* Cor de fundo  */
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: #111111; /* Cor de fundo  */
+    padding: 20px;
+    color: #fff; /* Cor do texto  */
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff; /* Cor do texto  */
+}
+
+section {
+    padding: 50px;
+    color: #fff; /* Cor do texto  */
+}
+
+footer {
+    background-color: #111111; /* Cor de fundo  */
+    padding: 20px;
+    color: #fff; /* Cor do texto  */
+    text-align: center;
+}
+
+.produto {
+    background-color: #363636; /* Cor de fundo  */
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+.botao-Comprar {
+    background-color: #9B30FF; /* Cor de fundo  */
+    color: #fff; /* Cor do texto  */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.botao-Comprar:hover {
+    background-color: #551A8B; /* Cor de fundo  */
+    box-shadow: 0 0 5px #551A8B, 0 0 25px #551A8B, 0 0 50px #551A8B, 0 0 100px #551A8B;
+}
