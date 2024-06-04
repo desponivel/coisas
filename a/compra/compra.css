@@ -1,0 +1,170 @@
+/* Estilo para a página de compra */
+
+body {
+    background-color: #1C1C1C; /* Cor de fundo */
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: #111111; /* Cor de fundo */
+    padding: 20px;
+    color: #fff; /* Cor do texto */
+    text-align: center;
+    border-bottom: 3px solid #9B30FF;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #9B30FF; /* Cor do texto */
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #fff;
+}
+
+section {
+    padding: 50px;
+    color: #fff; /* Cor do texto */
+}
+
+footer {
+    background-color: #111111; /* Cor de fundo */
+    padding: 20px;
+    color: #fff; /* Cor do texto */
+    text-align: center;
+    border-top: 3px solid #9B30FF;
+}
+
+.produto {
+    background-color: #363636; /* Cor de fundo */
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.produto:hover {
+    transform: translateY(-10px);
+    background-color: #444444; /* Cor de fundo ao hover */
+}
+
+.botao-Comprar {
+    background-color: #9B30FF; /* Cor de fundo */
+    color: #fff; /* Cor do texto */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+/* Animação   jogo Call of Duty */
+@keyframes codAnimation {
+    0% {
+        transform: translateY(0) rotate(0deg);
+    }
+    25% {
+        transform: translateY(-3px) rotate(-5deg);
+    }
+    50% {
+        transform: translateY(3px) rotate(5deg);
+    }
+    75% {
+        transform: translateY(-2px) rotate(-3deg);
+    }
+    100% {
+        transform: translateY(0) rotate(0deg);
+    }
+}
+
+/* Animação  The Last of Us Part II */
+@keyframes lastOfUsAnimation {
+    0% {
+        transform: scale(1) rotate(0deg);
+    }
+    25% {
+        transform: scale(1.1) rotate(-5deg);
+    }
+    50% {
+        transform: scale(0.9) rotate(5deg);
+    }
+    75% {
+        transform: scale(1.1) rotate(-3deg);
+    }
+    100% {
+        transform: scale(1) rotate(0deg);
+    }
+}
+
+/* Animação  Cyberpunk 2077 */
+@keyframes cyberpunkAnimation {
+    0% {
+        transform: skewX(0deg);
+    }
+    25% {
+        transform: skewX(20deg);
+    }
+    50% {
+        transform: skewX(-20deg);
+    }
+    75% {
+        transform: skewX(100deg);
+    }
+    100% {
+        transform: skewX(0deg);
+    }
+}
+
+/* animação botões de compra */
+#botao-cod:hover {
+    animation: codAnimation 0.5s ease infinite;
+}
+
+#botao-last-of-us:hover {
+    animation: lastOfUsAnimation 0.5s ease infinite;
+}
+
+#botao-cyberpunk:hover {
+    animation: cyberpunkAnimation 0.5s ease infinite;
+}
+
+
+/*  a animação ao hover */
+.botao-Comprar:hover {
+    background-color: #551A8B; /* Cor de fundo */
+    box-shadow: 0 0 5px #551A8B, 0 0 25px #551A8B, 0 0 50px #551A8B, 0 0 100px #551A8B;
+    animation: pulseShake 0.7s infinite;
+}
+
+/* Estilo para os ícones sociais */
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icon {
+    color: #9B30FF;
+    margin: 0 10px;
+    font-size: 24px;
+    transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+    color: #fff;
+}
+
